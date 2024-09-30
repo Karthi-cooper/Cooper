@@ -62,7 +62,7 @@ function  Carcollection({Data}) {
   const navigate = useNavigate();
 
   const handleViewDetails = () => {
-    navigate(`/Cooper/Product/${Data.id}`);
+    navigate(`/Product/${Data.id}`);
   };
   return ( 
   

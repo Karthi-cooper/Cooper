@@ -20,7 +20,7 @@ import data from '../Data/Collect1.js';
      
     <Swiper
      effect={'coverflow'}
-     grabCursor={true}
+     grabCursor={false}
      centeredSlides={true}
      slidesPerView={'auto'}
      initialSlide={2}

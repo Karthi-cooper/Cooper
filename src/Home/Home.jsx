@@ -22,7 +22,7 @@ function Home( ) {
 
         <button
               className="mt-6 h-10 w-36 items-center rounded-lg border-solid bg-black p-2 text-base text-white transition-colors duration-700 hover:border-slate-950 hover:bg-white hover:text-black"
-              onClick={() => navigate('/Cooper/NavCollection')} // Navigate to NavCollection on button click
+              onClick={() => navigate('/NavCollection')} // Navigate to NavCollection on button click
             >
               Check Out
             </button>

@@ -104,7 +104,7 @@ function Contact() {
               <span>  +919842763438  +919943563438</span>
             </div>
             <div className='flex items-start'>
-              <FaMapMarkerAlt className='text-red-500 mr-3 mt-1 text-2xl' />
+              <FaMapMarkerAlt className='text-red-500 mr-3 text-3xl' />
               <span>
                 41/1, Tamil Sangam Rd, opposite of Tamil sangam mandapam, Sankar Nagar, Salem, Tamil Nadu 636007
               </span>

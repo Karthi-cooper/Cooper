@@ -27,8 +27,7 @@ body {
 }
 .swiper-slide img{
   display: block;
-  background-color: blue;
-  width: 70%;
+  width: 80%;
   height: 80%;
   object-fit: cover;
   user-select: none;

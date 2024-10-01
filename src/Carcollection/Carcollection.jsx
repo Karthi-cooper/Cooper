@@ -57,6 +57,8 @@ import React from 'react'
  import '../Carcollection/Car.css';
  import LazyLoad from 'react-lazyload';
 import { useNavigate } from 'react-router-dom';
+import { IoArrowForwardCircle  } from "react-icons/io5";
+
 
 function  Carcollection({Data}) {
   const navigate = useNavigate();
@@ -70,7 +72,7 @@ function  Carcollection({Data}) {
  <div   id='swiper-slide '>
   <LazyLoad height={200} offset={100} once>
   <img 
-         className="m-3  ml-12 rounded-md"
+         className="m-5  ml-8 rounded-md"
          src={`${Data.img}`}
         //  src={`../Asset/${Data.img}`}
          alt={Data.brand} 
@@ -78,11 +80,14 @@ function  Carcollection({Data}) {
 
          </LazyLoad>
 
-         <div className='items-center  justify-center '>
-          <h2 className="card-title text-center items-center  text-black ">
+         <div className='items-center  justify-center flex '>
+          <h2 className="card-title text-center items-center ml-2 text-black ">
            {Data.brand}
           </h2>
+        <button onClick={handleViewDetails}  className='text-black  m-2 text-xl'>  <IoArrowForwardCircle />
+         </button>
 
+{/* 
             <button className=' 
              ml-28  transition-all duration-500  bg-gradient-to-tr from-slate-500 via-zinc-300 to-slate-200   border  hover:border-s-neutral-950 hover:border-t-slate-950 hover:border-b-slate-500 hover:border-r-gray-700
               text-black  
@@ -91,7 +96,7 @@ function  Carcollection({Data}) {
                ' 
              onClick={handleViewDetails}>
              View More
-             </button>
+             </button> */}
         </div>
  </div>
  

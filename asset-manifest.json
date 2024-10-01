@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cooper/static/css/main.c5281a39.css",
-    "main.js": "/Cooper/static/js/main.490302fc.js",
+    "main.css": "/Cooper/static/css/main.5d217d50.css",
+    "main.js": "/Cooper/static/js/main.90a89562.js",
     "static/js/453.582ee14a.chunk.js": "/Cooper/static/js/453.582ee14a.chunk.js",
     "static/media/for2.webp": "/Cooper/static/media/for2.185e2923ec345449b328.webp",
     "static/media/crystaseat.webp": "/Cooper/static/media/crystaseat.98ded6e352f54d906ef0.webp",
@@ -50,12 +50,12 @@
     "static/media/facebook.png": "/Cooper/static/media/facebook.49e67d43221b6bb1aa86.png",
     "static/media/back3.png": "/Cooper/static/media/back3.795e189a9df231ef728f.png",
     "index.html": "/Cooper/index.html",
-    "main.c5281a39.css.map": "/Cooper/static/css/main.c5281a39.css.map",
-    "main.490302fc.js.map": "/Cooper/static/js/main.490302fc.js.map",
+    "main.5d217d50.css.map": "/Cooper/static/css/main.5d217d50.css.map",
+    "main.90a89562.js.map": "/Cooper/static/js/main.90a89562.js.map",
     "453.582ee14a.chunk.js.map": "/Cooper/static/js/453.582ee14a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5281a39.css",
-    "static/js/main.490302fc.js"
+    "static/css/main.5d217d50.css",
+    "static/js/main.90a89562.js"
   ]
 }

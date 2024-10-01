@@ -7,9 +7,7 @@ import './Contact.css';
 import { FaPhoneAlt, FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { MdMessage } from "react-icons/md";
-// import whatsapp from '/Asset/whats1.png';
-// import insta from '/Asset/insta1.png';
-// import face from '/Asset/facebook.png';
+ 
 import whatsapp from '../Asset/whats1.png';
 import insta from '../Asset/insta1.png';
 import face from '../Asset/facebook.png';
